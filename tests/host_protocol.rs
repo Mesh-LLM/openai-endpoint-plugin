@@ -35,6 +35,9 @@ async fn executable_initializes_with_mesh_076_protocol() -> Result<()> {
                         host_version: "0.76.0".into(),
                         host_info_json: "{}".into(),
                         mesh_visibility: proto::MeshVisibility::Private as i32,
+                        // A 0.76.0 host sends neither field.
+                        host_capabilities: Vec::new(),
+                        settings_json: String::new(),
                     },
                 )),
             },
