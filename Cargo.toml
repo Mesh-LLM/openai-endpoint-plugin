@@ -8,7 +8,7 @@ repository = "https://github.com/Mesh-LLM/openai-endpoint"
 
 [dependencies]
 anyhow = "1"
-mesh-llm-plugin = { git = "https://github.com/Mesh-LLM/mesh-llm.git", rev = "557630fd0a543aecd2f2b8ef5232ec1829865115" }
+mesh-llm-plugin = { git = "https://github.com/Mesh-LLM/mesh-llm.git", rev = "2b9e64aecdcebaa4242d0718e257bbd59cbf2575" }
 tokio = { version = "1", features = ["full"] }
 
 [dev-dependencies]
